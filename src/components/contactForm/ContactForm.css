@@ -1,0 +1,78 @@
+.contact-form {
+  padding: 4rem;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: -15rem;
+  z-index: 2;
+}
+
+.form-heading {
+  text-align: center;
+}
+
+.form-heading .heading-tertiary {
+  margin-bottom: 0.5rem;
+}
+
+.form-heading .subheading {
+  margin-bottom: 3.2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.form-contact input,
+textarea {
+  width: 100%;
+  display: block;
+  font-size: 1.2rem;
+  padding: 1.5rem;
+  margin-bottom: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #e1dbf4;
+  color: #3e3f66;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.form-contact input[type="checkbox"] {
+  width: 5%;
+  margin-bottom: 0;
+}
+
+.form-contact input:focus,
+.form-contact textarea:focus {
+  outline: none !important;
+  border: 1px solid #eb5d39;
+}
+
+.form-contact label {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 1.4rem;
+}
+
+.error-cont {
+  margin-bottom: 1.8rem;
+  text-align: left;
+  color: #990000;
+  font-weight: 600;
+}
+
+@media (max-width: 52em) {
+  .contact-question {
+    padding: 3rem 5rem;
+  }
+
+  .contact-question-heading .subheading {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 34em) {
+  .contact-form {
+    padding: 4rem 2rem;
+  }
+}

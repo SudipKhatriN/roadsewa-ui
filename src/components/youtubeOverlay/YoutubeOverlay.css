@@ -1,0 +1,41 @@
+.youtube-overlay {
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+  padding: 3rem;
+  text-align: right;
+  transition: opacity 0.5s ease;
+  animation: 1s alternate comeInview;
+}
+
+.btn--cross {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.video-cont {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes comeInview {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

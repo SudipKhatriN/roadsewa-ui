@@ -1,0 +1,45 @@
+.still-question {
+  margin-top: 3.2rem !important;
+}
+
+.still-question-cont {
+  padding: 4rem;
+  background: url(../../contact-bg-3.webp) no-repeat;
+  border-radius: 12px;
+  background-size: cover;
+}
+
+.still-question .subheading {
+  margin: 0 !important;
+  margin-right: auto !important;
+}
+
+.link-cont {
+  width: auto;
+}
+
+.contact-link {
+  color: #eb5d39;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #170906;
+}
+
+@media (max-width: 52em) {
+  .still-question-cont {
+    text-align: center;
+  }
+
+  .still-question-cont .heading-cont .subheading {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 29em) {
+  .still-question-cont {
+    padding: 2rem 1.4rem;
+  }
+}

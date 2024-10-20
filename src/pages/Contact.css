@@ -1,0 +1,11 @@
+.contact-form-cont {
+  gap: 6rem;
+  margin-bottom: 3.2rem !important;
+}
+
+@media (max-width: 52em) {
+  .contact-form-cont {
+    grid-template-columns: 1fr !important;
+    gap: 3rem;
+  }
+}

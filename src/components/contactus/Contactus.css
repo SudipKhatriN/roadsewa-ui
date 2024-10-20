@@ -1,0 +1,48 @@
+.contact-us {
+  position: relative;
+  width: 80%;
+  text-align: center;
+  background-color: #eb5d39;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 30px;
+}
+
+.contact-us .heading-secondary {
+  color: white;
+}
+
+.contact-us .subheading {
+  width: 80%;
+  color: white;
+  line-height: 1.5;
+}
+
+.btn-contact {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.2rem 2rem !important;
+  background-color: white;
+  border: 2px solid white;
+  color: #eb5d39;
+  transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+  background-color: #eb5d39;
+  color: white;
+}
+
+@media (max-width: 34em) {
+  .contact-us {
+    width: 95%;
+  }
+
+  .contact-us .subheading {
+    width: 100%;
+  }
+}

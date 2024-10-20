@@ -1,0 +1,65 @@
+.customer-feedback {
+  margin-block: 6rem !important;
+}
+
+.customer-feedback .heading-cont {
+  text-align: center;
+}
+
+.feedback-bg-cont {
+  width: 100%;
+  background: url(../../../testimonial-bg.webp) no-repeat;
+  background-position: center center;
+  background-size: contain;
+  text-align: center;
+}
+
+.feedback-card-cont {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.feedback-card-cont .slick-dots {
+  bottom: -30px;
+}
+
+.feedback-card-cont .slick-dots li button:before {
+  font-size: 1.8rem;
+}
+
+.feedback-card-cont .slick-dots li {
+  width: 15px;
+}
+
+.feedback-card-cont .slick-dots li.slick-active button:before {
+  color: #eb5d39;
+}
+
+.total-rating {
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+
+.total-rates {
+  font-size: 4.4rem;
+  color: #7d3723;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.review-link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #eb5d39;
+  text-decoration: none;
+}
+
+@media (max-width: 29em) {
+  .feedback-card-cont .slick-dots li {
+    width: 10px;
+  }
+
+  .feedback-card-cont .slick-dots li button:before {
+    font-size: 1.2rem !important;
+  }
+}

@@ -1,0 +1,63 @@
+.contact-question {
+  padding: 3rem;
+}
+
+.contact-question a {
+  text-decoration: none;
+}
+
+.icon-cont {
+  display: inline-flex !important;
+  font-size: 3.6rem;
+  padding: 1.4rem 1.5rem;
+  background-color: #d4f0ff;
+  color: #b2a5e7;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.contact-question-heading .subheading {
+  width: 80%;
+  font-size: 1.2rem;
+  text-transform: none;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+}
+
+.faq-link {
+  color: #eb5d39;
+}
+
+.contact-flx {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 4.4rem;
+}
+
+.contact-flx-icon {
+  font-size: 2.4rem;
+  padding: 1rem 1.2rem;
+  background-color: #fbdfd7;
+  color: #eb5d39;
+  border-radius: 50%;
+}
+
+.contact-flx-heading {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #5e2517;
+  font-weight: 600;
+}
+
+.contact-flx-desc {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #762f1d;
+}
+
+@media (max-width: 34em) {
+  .contact-question {
+    padding: 0;
+  }
+}

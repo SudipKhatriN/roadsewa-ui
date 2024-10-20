@@ -1,0 +1,20 @@
+.item-cont {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-cont img {
+  filter: grayscale(1);
+  transition: all 0.3s ease;
+}
+
+.item-cont img:hover {
+  filter: grayscale(0);
+}
+
+@media (max-width: 62em) {
+  .item-cont img {
+    max-width: 80%;
+  }
+}

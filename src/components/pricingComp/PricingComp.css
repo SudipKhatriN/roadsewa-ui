@@ -1,0 +1,77 @@
+.pricing-comp {
+  text-align: center;
+  margin-bottom: 8rem !important;
+}
+
+.pricing-details-cont {
+  gap: 2rem;
+}
+
+.pricing-details-cont .pricing-card:nth-child(even) {
+  background-color: #eb5d39;
+  color: white;
+  height: 110%;
+}
+
+.pricing-card:nth-child(even) .plan-price {
+  color: white;
+}
+
+.pricing-card:nth-child(even) .plan-for {
+  color: white;
+}
+
+.pricing-card:nth-child(even) .btn--pricing {
+  color: white;
+  border: 1px solid white;
+}
+
+.pricing-card:nth-child(even) .btn--pricing:hover {
+  background: white;
+  color: #eb5d39;
+}
+
+.pricing-action-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+  gap: 1rem;
+}
+
+.pricing-time {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.pricing-time.pricing--active {
+  color: #eb5d39;
+}
+
+.discount-per {
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  color: #eb5d39;
+  background-color: white;
+  border-radius: 4px;
+}
+
+@media (max-width: 49em) {
+  .pricing-comp {
+    text-align: center;
+    margin-bottom: 3rem !important;
+  }
+
+  .pricing-details-cont {
+    grid-template-columns: 1fr !important;
+  }
+  .pricing-details-cont .pricing-card:nth-child(even) {
+    height: 100%;
+  }
+}
+
+@media (max-width: 19em) {
+  .pricing-action-cont {
+    flex-direction: column;
+  }
+}

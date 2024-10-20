@@ -1,0 +1,31 @@
+.featured-blogs {
+  text-align: center;
+  margin-top: 3.2rem !important;
+}
+
+.featured-blogcard-cont {
+  gap: 3rem;
+}
+
+.featured-blogcard-cont .subheading {
+  margin: 0 !important;
+  margin-right: auto !important;
+}
+
+@media (max-width: 54em) {
+  .featured-blogcard-cont {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr !important;
+  }
+
+  .featured-blogs .heading-cont .subheading {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 29em) {
+  .featured-blogcard-cont {
+    width: 100%;
+  }
+}

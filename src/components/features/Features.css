@@ -1,0 +1,159 @@
+.features {
+  text-align: center;
+  margin-top: 3.6rem;
+}
+
+.features .heading-cont {
+  margin-bottom: 7.4rem;
+}
+
+.features-card-cont {
+  background-color: white;
+  padding: 2rem 1rem;
+  align-items: center;
+  border-radius: 24px;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.feature-card-content1 {
+  text-align: right;
+}
+
+.content1 {
+  margin-bottom: 3.6rem;
+}
+
+.btn-learn-more {
+  border: 2px solid #eb5d39;
+  color: #eb5d39;
+}
+
+.btn-learn-more:hover {
+  background-color: #eb5d39;
+  color: white;
+}
+
+.content1-icon-cont {
+  width: 6rem;
+  height: 6rem;
+  margin-left: auto;
+  background-color: #eb5d39;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.feature-content1-icon {
+  font-size: 3.2rem;
+}
+
+.features .subheading {
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.features .heading-tertiary {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.feature-img-wrapper {
+  width: 100%;
+  margin-top: -6.4rem;
+}
+
+.feature-card-content2 {
+  text-align: left;
+}
+
+.feature-card-content2 .heading-secondary {
+  font-size: 3.2rem;
+}
+
+.feature-card-content2 .heading-highlight {
+  display: block;
+}
+
+.content2-flx {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.content2-icon-cont {
+  width: 9rem;
+  height: 4rem;
+  background-color: #eb5d39;
+  border-radius: 8px;
+  color: white;
+}
+
+.feature-content2-icon {
+  font-size: 2.4rem;
+}
+
+@media (max-width: 62em) {
+  .features .heading-tertiary {
+    font-size: 3rem;
+  }
+
+  .features .subheading {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+  }
+
+  .features-card-cont {
+    width: 90%;
+    margin: 0 auto;
+    gap: 0.5rem;
+    grid-template-columns: 1fr !important;
+  }
+
+  .feature-card-content1 {
+    text-align: center;
+  }
+
+  .content1-icon-cont {
+    margin-right: auto;
+  }
+
+  .feature-img-wrapper {
+    margin-top: 1rem;
+  }
+
+  .feature-img-wrapper img {
+    max-width: 60%;
+  }
+
+  .contetn2-content-cont {
+    margin-top: 2rem;
+  }
+
+  .feature-card-content2 {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+
+  .feature-card-content2 .subheading {
+    width: 100%;
+  }
+
+  .feature-card-content2 .heading-highlight {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 28em) {
+  .content2-flx {
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+  }
+}

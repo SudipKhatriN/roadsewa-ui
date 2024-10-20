@@ -1,0 +1,52 @@
+.pricing-card {
+  background-color: white;
+  padding-block: 4rem;
+  border-radius: 12px;
+}
+
+.plan-img {
+  width: 12rem;
+}
+
+.plan-name {
+  font-size: 2.4rem;
+  margin-top: 3.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.plan-for {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.plan-price {
+  color: #eb5d39;
+  font-size: 4.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.plan-desc-list {
+  margin-bottom: 3.2rem;
+}
+
+.plan-desc {
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.btn--pricing {
+  width: 50% !important;
+  border: 1px solid #eb5d39;
+  background-color: transparent;
+  color: #eb5d39;
+  font-weight: 600;
+}
+
+.btn--pricing:hover {
+  background-color: #eb5d39;
+  color: white;
+}
