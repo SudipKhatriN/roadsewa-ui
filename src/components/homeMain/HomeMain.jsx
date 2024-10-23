@@ -1,4 +1,4 @@
-import CompanyTrusted from "../companyTrusted/companyTrusted";
+import CompanyTrusted from "../companyTrusted/CompanyTrusted";
 import HomeHero from "../hero/HomeHero";
 import DownloadAd from "../downloadAd/DownloadAd";
 import Faqcont from "../faqcont/Faqcont";
