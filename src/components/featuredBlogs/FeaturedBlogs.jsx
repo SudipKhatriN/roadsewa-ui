@@ -3,7 +3,7 @@ import "./FeaturedBlogs.css";
 
 export default function FeaturedBlogs() {
   return (
-    <section className="container featured-blogs">
+    <section className="container featured-blogs mt">
       <div className="heading-cont">
         <h2 className="heading-secondary">
           Read <span className="heading-highlight">latest from blog</span>

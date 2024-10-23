@@ -3,11 +3,17 @@ import { MdOutlineDownloadForOffline } from "react-icons/md";
 import { AiOutlineLike } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { RxLightningBolt } from "react-icons/rx";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Featurestwo() {
   return (
     <section className="grid grid--2-cols container feature-two">
-      <div className="featuretwo-img-cont">
+      <ScrollAnimation
+        className="featuretwo-img-cont"
+        animateIn="fadeInLeft"
+        animateOnce={true}
+        duration={1.2}
+      >
         <img
           src="./app-free-trial.png"
           alt="Phone with free trial screen"
@@ -18,9 +24,14 @@ export default function Featurestwo() {
           alt="Remainder screen of app"
           className="remainder-screen"
         />
-      </div>
+      </ScrollAnimation>
 
-      <div className="featuretwo-content-cont">
+      <ScrollAnimation
+        className="featuretwo-content-cont"
+        animateIn="fadeInRight"
+        duration={1.2}
+        animateOnce={true}
+      >
         <div className="heading-cont">
           <h2 className="heading-secondary">
             Robust Data Security & Privacy{" "}
@@ -80,7 +91,7 @@ export default function Featurestwo() {
             Start Free Trial
           </a>
         </div>
-      </div>
+      </ScrollAnimation>
     </section>
   );
 }

@@ -7,7 +7,7 @@ function DemoVideo() {
   const [showVideo, setShowVideo] = useState(false);
 
   return (
-    <section className="demo-video">
+    <section className="demo-video mt">
       <div className="container demo-video-cont">
         <div className="demo-video-content">
           <PlayBtn setShowVideo={setShowVideo} />

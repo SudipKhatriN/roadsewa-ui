@@ -4,11 +4,16 @@ import { SlCalender } from "react-icons/sl";
 import { MdBarChart } from "react-icons/md";
 import { SlWrench } from "react-icons/sl";
 import { MdOutlineDownloadForOffline } from "react-icons/md";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Features() {
   return (
     <section className="container features">
-      <div className="heading-cont">
+      <ScrollAnimation
+        className="heading-cont"
+        animateIn="fadeInUp"
+        animateOnce="true"
+      >
         <h2 className="heading-secondary">
           <span className="heading-highlight">Unlock</span> next-level amazing
           features!
@@ -16,9 +21,13 @@ export default function Features() {
         <p className="subheading">
           Unlock your true potential with Appers' amazing features.
         </p>
-      </div>
+      </ScrollAnimation>
 
-      <div className="grid grid--3-cols features-card-cont">
+      <ScrollAnimation
+        className="grid grid--3-cols features-card-cont"
+        animateIn="fadeInUp"
+        animateOnce="true"
+      >
         <div className="feature-card-content1">
           <div className="content1">
             <div className="icon content1-icon-cont">
@@ -96,7 +105,7 @@ export default function Features() {
             </div>
           </div>
         </div>
-      </div>
+      </ScrollAnimation>
     </section>
   );
 }

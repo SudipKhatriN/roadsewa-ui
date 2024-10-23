@@ -179,7 +179,9 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link className="nav__links nav__btn">Get Started</Link>
+              <Link to="contact" className="nav__links nav__btn">
+                Get Started
+              </Link>
             </li>
           </ul>
         </nav>

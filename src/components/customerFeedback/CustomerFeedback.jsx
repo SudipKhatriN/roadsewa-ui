@@ -20,7 +20,7 @@ function CustomerFeedback() {
   };
 
   return (
-    <section className="container customer-feedback">
+    <section className="container customer-feedback mt">
       <div className="heading-cont">
         <h2 className="heading-secondary">
           What our <span className="heading-highlight">customers say</span>

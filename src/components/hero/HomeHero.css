@@ -6,6 +6,11 @@
 
 .home-hero-cont {
   align-items: center;
+  overflow: hidden;
+}
+
+.home-hero__content {
+  animation: comeInViewRight 1s;
 }
 
 .subheading.home-hero__subtitle {
@@ -31,11 +36,12 @@
 }
 
 .hero__img-wrapper {
-  height: 60rem;
+  min-height: 60rem;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: comeInViewLeft 1s;
 }
 
 .mobile-frame-cont {
@@ -213,5 +219,26 @@
   .slider-cont-img img {
     max-width: 100%;
     width: 70%;
+  }
+}
+
+@keyframes comeInViewRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes comeInViewLeft {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }

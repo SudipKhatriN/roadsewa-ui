@@ -3,7 +3,7 @@ import "./StillQuestion.css";
 export default function StillQuestion() {
   return (
     <section className="container still-question">
-      <div className="still-question-cont">
+      <div className="still-question-cont mt">
         <div className="heading-cont">
           <h2 className="heading-secondary">
             Still have <span className="heading-highlight">questions?</span>

@@ -1,7 +1,10 @@
 import IconsAnimation from "../iconsAnimation/IconsAnimation";
 import "./HomeHero.css";
 import { SiTicktick } from "react-icons/si";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function HomeHero() {
   const settings = {
@@ -12,6 +15,7 @@ export default function HomeHero() {
     autoplaySpeed: 2000,
     slidesToShow: 1,
     arrow: false,
+    adaptiveHeight: true,
     slidesToScroll: 1,
   };
 

@@ -1,3 +1,4 @@
+import ScrollAnimation from "react-animate-on-scroll";
 import FaqAccordian from "../faqAccordian/FaqAccordian";
 import "./Faqcont.css";
 
@@ -36,8 +37,13 @@ const questions = [
 
 export default function Faqcont() {
   return (
-    <section className="container faq-cont">
-      <div className="heading-cont">
+    <section className="container faq-cont mt">
+      <ScrollAnimation
+        className="heading-cont"
+        animateIn="fadeIn"
+        duration={1.2}
+        animateOnce={true}
+      >
         <h2 className="heading-secondary">
           <span className="heading-highlight">FAQ</span>- Frequently Asked
           Questions
@@ -46,7 +52,7 @@ export default function Faqcont() {
           Get answers to your questions about our awesome app! Learn more and
           explore its features now.
         </p>
-      </div>
+      </ScrollAnimation>
 
       {questions.map((question) => {
         return <FaqAccordian key={question.id} questions={question} />;

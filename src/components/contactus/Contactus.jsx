@@ -3,7 +3,7 @@ import "./Contactus.css";
 
 export default function Contactus() {
   return (
-    <section className="container contact-us">
+    <section className="container contact-us mt">
       <h2 className="heading-secondary">Contact Us Today!</h2>
       <p className="subheading">
         Need help? Get all your questions answered with help from our friendly

@@ -3,7 +3,7 @@ import "./OurTeams.css";
 
 export default function OurTeams() {
   return (
-    <section className="container our-teams">
+    <section className="container our-teams mt">
       <div className="heading-cont">
         <h2 className="heading-secondary">
           Meet our <span className="heading-highlight">experts team</span>

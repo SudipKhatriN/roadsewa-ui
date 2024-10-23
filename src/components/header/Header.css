@@ -1,5 +1,5 @@
 .header {
-  height: 10rem;
+  min-height: 6.25rem;
   transition: all 0.3s ease;
 }
 
@@ -37,9 +37,10 @@
 .nav__links,
 .sub-menu__links {
   text-decoration: none;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 600;
   color: #461c11;
+  letter-spacing: 1px;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -115,17 +116,18 @@
   top: 3rem;
   display: flex;
   flex-direction: column;
+  gap: 0.8rem;
   list-style: none;
   background-color: white;
   border-radius: 8px;
   padding: 1.8rem;
-  width: 28rem;
+  min-width: 28rem;
   transition: all 0.3s ease;
 }
 
 .sub-menu--mega {
   flex-direction: row;
-  width: 100rem;
+  min-width: 80rem;
   justify-content: space-between;
   left: -100%;
 }
@@ -142,7 +144,7 @@
 }
 
 .sub-menu__title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -154,7 +156,7 @@
 }
 
 .sub-menu__links {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   position: relative;
   transform: translateX(-10%);
   transition: all 0.3s ease;
@@ -255,7 +257,8 @@
   }
 
   .sub-menu--mega {
-    width: 40rem;
+    min-width: 40rem;
+    overflow: scroll;
     left: 0rem;
     top: 4rem;
     flex-direction: column;
@@ -295,10 +298,9 @@
 }
 
 @media (max-width: 31em) {
-  .sub-menu--mega,
-  .sub-menu {
-    width: 25rem;
-  }
+  /* .sub-menu {
+    min-width: 25rem;
+  } */
 }
 
 @media (max-width: 21em) {
