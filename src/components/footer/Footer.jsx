@@ -3,7 +3,7 @@ import DownloadButton from "../downloadButton/DownloadButton";
 import Logo from "../../assets/BrandLogo.png";
 import NewsSubscription from "../newsSubscription/NewsSubscription";
 import SocialLinks from "../socialLinks/SocialLinks";
-import "./footer.css";
+import "./Footer.css";
 
 export default function Footer() {
   const location = useLocation();
