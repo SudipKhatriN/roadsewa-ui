@@ -1,5 +1,5 @@
 import PageHero from "../components/pageHero/PageHero";
-import ContactForm from "../components/contactForm/contactForm";
+import ContactForm from "../components/contactForm/ContactForm";
 import ContactQuestion from "../components/contactQuestion/ContactQuestion";
 
 import "./Contact.css";
