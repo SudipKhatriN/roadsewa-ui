@@ -9,25 +9,25 @@
 
 .pricing-details-cont .pricing-card:nth-child(even) {
   background-color: #eb5d39;
-  color: white;
+  color: #fff;
   height: 110%;
 }
 
 .pricing-card:nth-child(even) .plan-price {
-  color: white;
+  color: #fff;
 }
 
 .pricing-card:nth-child(even) .plan-for {
-  color: white;
+  color: #fff;
 }
 
 .pricing-card:nth-child(even) .btn--pricing {
-  color: white;
-  border: 1px solid white;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .pricing-card:nth-child(even) .btn--pricing:hover {
-  background: white;
+  background: #fff;
   color: #eb5d39;
 }
 
@@ -52,7 +52,7 @@
   padding: 0.8rem;
   font-size: 1.4rem;
   color: #eb5d39;
-  background-color: white;
+  background-color: #fff;
   border-radius: 4px;
 }
 

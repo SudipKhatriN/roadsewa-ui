@@ -1,5 +1,5 @@
 .pricing-card {
-  background-color: white;
+  background-color: #fff;
   padding-block: 4rem;
   border-radius: 12px;
 }
@@ -48,5 +48,5 @@
 
 .btn--pricing:hover {
   background-color: #eb5d39;
-  color: white;
+  color: #fff;
 }

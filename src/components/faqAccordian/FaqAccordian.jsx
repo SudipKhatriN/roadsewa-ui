@@ -10,18 +10,13 @@ function FaqAccordian({ questions }) {
   const { question, answer } = questions;
 
   return (
-    <ScrollAnimation
-      className="accordian-cont"
-      animateIn="fadeInUp"
-      duration={1.2}
-      animateOnce={true}
-    >
+    <div className="accordian-cont">
       <div className="accordian" onClick={() => setShowAnswer(!showAnswer)}>
         <h3>{question}</h3>
         <span>{showAnswer ? <FaMinus /> : <FaPlus />}</span>
       </div>
       {showAnswer && <p className="accordian-answer">{answer}</p>}
-    </ScrollAnimation>
+    </div>
   );
 }
 

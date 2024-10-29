@@ -1,6 +1,6 @@
 .featured-blogcard {
   width: 100%;
-  background-color: white;
+  background-color: #fff;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -30,7 +30,7 @@
   font-size: 1.5rem;
   padding: 1rem 2rem;
   border-radius: 24px;
-  background-color: white;
+  background-color: #fff;
   color: #eb5d39;
 }
 

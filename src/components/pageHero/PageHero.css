@@ -7,7 +7,7 @@
   justify-content: center;
   margin-top: -12rem;
   background-color: #eb5d39;
-  color: white;
+  color: #fff;
   margin-bottom: 3.2rem;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .page-hero .heading-secondary {
-  color: white;
+  color: #fff;
 }
 
 .page__link-list {
@@ -33,7 +33,7 @@
 }
 
 .page__link {
-  color: white;
+  color: #fff;
   font-size: 1.8rem;
   text-decoration: none;
   cursor: pointer;

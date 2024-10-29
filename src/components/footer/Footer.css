@@ -1,5 +1,5 @@
 .footer {
-  background-color: #444;
+  background-color: black;
   margin-top: 15rem;
   padding: 2rem 0;
   padding-bottom: 0;
@@ -17,21 +17,24 @@
 }
 
 .footer-logo {
-  display: inline-block;
+  display: inline-flex;
   height: 100%;
   margin-bottom: 0.8rem;
   transform: translateY(-15%);
+  max-width: 200px;
+  background-color: #fff;
+  border-radius: 12px;
 }
 .footer-logo img {
   height: 8rem;
   object-fit: cover;
-  width: 80%;
+  width: 100%;
 }
 
 .company-detail {
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
-  color: white;
+  color: #fff;
   line-height: 1.4;
 }
 
@@ -40,7 +43,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  color: white;
+  color: #fff;
 }
 
 .footer-menu-heading {
@@ -51,12 +54,12 @@
 .footer-line {
   width: 25%;
   height: 1.5px;
-  background-color: white;
+  background-color: #fff;
 }
 
 .footer-menu {
   font-size: 1.5rem;
-  color: white;
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -70,19 +73,24 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 70%;
+}
+
+.footer-download-btn img {
+  max-width: 100%;
 }
 
 .copyright-cont {
   width: 100%;
   height: 60px;
-  background-color: #444;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: left;
 }
 
 .copyright-txt {
-  color: white;
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 1px;

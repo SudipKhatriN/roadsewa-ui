@@ -8,17 +8,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #fff;
   border-radius: 30px;
 }
 
 .contact-us .heading-secondary {
-  color: white;
+  color: #fff;
 }
 
 .contact-us .subheading {
   width: 80%;
-  color: white;
+  color: #fff;
   line-height: 1.5;
 }
 
@@ -26,15 +26,15 @@
   font-size: 1.5rem;
   font-weight: 600;
   padding: 1.2rem 2rem !important;
-  background-color: white;
-  border: 2px solid white;
+  background-color: #fff;
+  border: 2px solid #fff;
   color: #eb5d39;
   transition: all 0.3s ease;
 }
 
 .btn-contact:hover {
   background-color: #eb5d39;
-  color: white;
+  color: #fff;
 }
 
 @media (max-width: 34em) {

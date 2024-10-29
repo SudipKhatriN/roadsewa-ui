@@ -28,11 +28,15 @@
 
 .btn--hero {
   width: 40% !important;
-  border: 2px solid #eb5d39 !important;
+  padding: 0 !important;
+}
+
+.btn--hero img {
+  max-width: 100%;
 }
 
 .btn--hero:hover {
-  background-color: #eb5d39;
+  opacity: 0.8;
 }
 
 .hero__img-wrapper {

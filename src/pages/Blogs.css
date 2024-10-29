@@ -13,7 +13,7 @@
 }
 
 .white-cont {
-  background-color: white;
+  background-color: #fff;
   padding: 1.5rem 2rem;
   border-radius: 12px;
   margin-bottom: 3rem;
@@ -43,7 +43,7 @@
   padding: 1rem 1.2rem;
   border-radius: 50%;
   background-color: #eb5d39;
-  color: white;
+  color: #fff;
   border: 1px solid #eb5d39;
   right: 8%;
   top: 23%;

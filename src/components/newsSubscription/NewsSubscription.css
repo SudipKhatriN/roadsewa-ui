@@ -1,6 +1,6 @@
 .news-letter {
   background-color: #eb5d39;
-  color: white;
+  color: #fff;
   display: flex;
   align-items: center;
   gap: 6rem;
@@ -49,9 +49,9 @@
   font-size: 1.5rem;
   font-weight: 700;
   padding: 2rem 5rem;
-  background-color: white;
+  background-color: #fff;
   color: #eb5d39;
-  border: 2px solid white;
+  border: 2px solid #fff;
   cursor: pointer;
   position: relative;
   z-index: 2;
@@ -73,7 +73,7 @@
   align-items: center;
   justify-content: center;
   background-color: #eb5d39;
-  border: 2px solid white;
+  border: 2px solid #fff;
   top: -2px;
   left: -50px;
   transition: all 0.5s ease;
@@ -81,7 +81,7 @@
 }
 
 .news-letter-btn:hover {
-  color: white;
+  color: #fff;
 }
 
 .news-letter-btn:hover::before {

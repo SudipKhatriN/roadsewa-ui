@@ -54,9 +54,16 @@ export default function Faqcont() {
         </p>
       </ScrollAnimation>
 
-      {questions.map((question) => {
-        return <FaqAccordian key={question.id} questions={question} />;
-      })}
+      <ScrollAnimation
+        className="accordian-cont"
+        animateIn="fadeInUp"
+        duration={1.2}
+        animateOnce={true}
+      >
+        {questions.map((question) => {
+          return <FaqAccordian key={question.id} questions={question} />;
+        })}
+      </ScrollAnimation>
     </section>
   );
 }
